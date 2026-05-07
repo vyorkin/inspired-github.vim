@@ -92,10 +92,10 @@ hi link Whitespace            Comment
 hi NormalFloat                guibg=None
 
 " Git
-hi DiffText                   guibg=None guifg=blue
-hi DiffAdd                    guibg=None guifg=green
-hi DiffDelete                 guibg=None guifg=red
-hi DiffChange                 guibg=None guifg=yellow
+hi DiffText                   guibg=None guifg=#183691
+hi DiffAdd                    guibg=None guifg=#519647
+hi DiffDelete                 guibg=None guifg=#ca1243
+hi DiffChange                 guibg=None guifg=#9a6700
 
 " [ Plugin ] - Indent Blankline
 hi IblIndent                  guifg=#eeeeee gui=nocombine
