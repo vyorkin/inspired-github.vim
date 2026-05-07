@@ -67,7 +67,7 @@ hi link Folded                Comment
 hi link IncSearch             Search
 hi link Macro                 Function
 hi link NonText               Comment
-hi link Operator              None
+hi Operator                   guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None
 hi link TSComment             Comment
 hi link TSConstBuiltin        TSVariableBuiltin
 hi link TSConstant            Constant
@@ -116,6 +116,8 @@ hi PmenuThumb                 guibg=#eeeeee
 hi CmpPmenuBorder             guifg=#eeeeee
 
 
-" TODO 
-" git modified liner nr foreground when pane is inactive
-" line number color for diagnostic lines
+" Diagnostics
+hi DiagnosticError            guifg=#ca1243 guibg=None
+hi DiagnosticWarn             guifg=#e36209 guibg=None
+hi DiagnosticInfo             guifg=#115f93 guibg=None
+hi DiagnosticHint             guifg=#795da3 guibg=None
